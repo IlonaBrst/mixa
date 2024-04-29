@@ -8,7 +8,7 @@ from sentence_transformers import SentenceTransformer, models,util
 from transformers import pipeline 
 import openai
 
-openai.api_key = "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"
+openai.api_key = ""
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 context = {
